@@ -4,7 +4,7 @@
     "slug": "Bus-Tracker-CiudBolivar",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/img/icono.png",
     "scheme": "bustrackerciudbolivar",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,9 +14,14 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/img/icono.png",
+        "backgroundImage": "./assets/img/icono.png",
+        "monochromeImage": "./assets/img/icono.png",
+        "config":{
+          "googleMaps":{
+            "apiKey":""
+          }
+        }
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
